@@ -1,0 +1,27 @@
+body {
+    background-color: lavenderblush;
+}
+h1 {
+    padding: 25px;
+    color: lavenderblush
+}
+   
+form {
+    margin: 300px;
+    margin-right: 600px;
+    margin-left: 600px;
+    text-align: center;
+    border: 10px solid gray;
+    background-color: rgb(13, 96, 96);
+    box-sizing: 200;
+    color: lavenderblush;
+    padding-bottom: 20px;
+}
+label {
+    color: lavenderblush;
+}
+button {
+    color: lavenderblush;
+    background-color: grey;
+
+}
