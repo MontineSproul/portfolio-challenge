@@ -1,9 +1,9 @@
-
+:root {
+    --main-header-bg-color: rgb(13, 96, 96);
+}
 * {
     box-sizing: border-box;
    margin: 0;
-   --main-header-bg-color: rgb(13, 96, 96);
-   
  }
 
  header {
@@ -83,10 +83,6 @@ a:hover {
     height: 300px;
     padding-top: 50px;
     padding-bottom: 50px;
-    /* border: 10px solid grey; */
-    /* border-top: 0;
-    border-left: 0px;
-    border-right: 0px; */
     overflow-y: scroll;
     scroll-snap-type: y mandatory;
     background-image: linear-gradient(var(--main-header-bg-color), lavenderblush);
@@ -104,33 +100,7 @@ a:hover {
     margin-right: 200px;
     margin-left: 200px;
  }
-/* 
- .work {
-    overflow-y: scroll;
-    scroll-snap-type: y mandatory;
-    scroll-snap-align: start;
- }
 
-.bottom {
-    display: grid;
-  
-}
-.img4 {
-    display: grid;
-    float: left;
-    vertical-align: bottom;
-    margin-left: 0px;
-    padding-left: 0;
-    margin: 20px;
-    margin-bottom: 70px;
-}
-
-.img5 {
-    display: inline-block;
-    vertical-align: bottom;
-    padding-left: 1025px;
-    margin-bottom: 70px;
-} */
 .work {
     display: flex;
     flex-wrap: wrap;
