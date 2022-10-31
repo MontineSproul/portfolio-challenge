@@ -14,12 +14,14 @@ body {
 nav {
   display: inline-flex;
   background-color: var(--main-header-bg-color);
+  padding-right: 25px;
   float: right;
 }
 
 nav a {
   width: 35%;
   padding-top: 10px;
+
   
 }
 
@@ -50,11 +52,11 @@ header,
 }
  
 h1 {
-  
    width: 30%;
    font-size: 65px;
    font-weight: 400;
    margin-bottom: 0px;
+   margin-right: 0px;
    color: lavenderblush;
  }
 
@@ -88,8 +90,7 @@ h3 {
   scroll-snap-align: start;
  }
 
-figure
-{
+figure {
    display: flex;
    align-items: center;
    width: 100%;
@@ -109,6 +110,7 @@ p {
   margin: 0;
   padding: 25px;
   text-align: center;
+  align-items: center;
   margin-right: 200px;
   margin-left: 200px;
  }
@@ -121,7 +123,7 @@ p {
    max-height: fit-content;
  }
 
- .column div p {
+  div p {
   position: absolute;
   background-color: var(--main-header-bg-color);
   color: lavenderblush;
@@ -156,8 +158,7 @@ p {
    grid-row-end: 2;
    height: 198%;
    width: 98%;
-   
- }
+}
 
  #proj2 {
    grid-column-start: 2;
@@ -194,13 +195,17 @@ footer  {
    width: 100%;
    height: 50px;
    text-align: center;
+   align-items:center;
 }
 
 i {
   color: lavenderblush;
+  
 }
 
-
+i:hover {
+  color: blueviolet;
+}
 
  
 @media screen and (max-width: 992px) {
@@ -210,14 +215,6 @@ i {
 
 @media screen and (max-width: 768px) {
   
-  li {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    justify-content: space-between;
-    align-items: center;
-    
-  }
 
 }
 

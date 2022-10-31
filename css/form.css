@@ -3,25 +3,59 @@ body {
 }
 h1 {
     padding: 25px;
-    color: lavenderblush
+    color: rgb(13, 96, 96)
 }
    
 form {
-    margin: 300px;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    /* margin: 300px;
     margin-right: 600px;
-    margin-left: 600px;
+    margin-left: 600px; */
     text-align: center;
-    border: 10px solid gray;
-    background-color: rgb(13, 96, 96);
-    box-sizing: 200;
-    color: lavenderblush;
-    padding-bottom: 20px;
+    border: 10px double rgb(13, 96, 96);
+   
+    /* box-sizing: 200; */
+    color: rgb(13, 96, 96);
+    padding-top: 25px;
+    padding: 40px;
+}
+
+input {
+    display: flex;
+    align-content: center;
+    margin:auto;
 }
 label {
-    color: lavenderblush;
+    color: rgb(13, 96, 96);
+    margin:auto;
+}
+
+.message {
+   height: 100px;
 }
 button {
-    color: lavenderblush;
-    background-color: grey;
+    color: rgb(13, 96, 96);
+    background-color: lavenderblush;
 
+}
+
+@media screen and (max-width: 992px) {
+  
+}
+
+
+@media screen and (max-width: 768px) {
+  
+
+}
+
+
+
+@media screen and (max-width: 576px) {
+  
 }
