@@ -115,13 +115,13 @@ p {
   margin-left: 200px;
  }
 
- main {
+ /* main {
    display: flex;
    flex-wrap: wrap;
    flex-direction: column;
    padding: 0px;
    max-height: fit-content;
- }
+ } */
 
   div p {
   position: absolute;
@@ -214,13 +214,21 @@ i:hover {
 
 
 @media screen and (max-width: 768px) {
-  
+.column {
+    display: block;
+    
+  }
+#contact {
 
+}
 }
 
 
 
 @media screen and (max-width: 576px) {
+  .column {
+    display: block;
+  }
   
 }
 
