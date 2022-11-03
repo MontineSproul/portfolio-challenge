@@ -182,7 +182,7 @@ p {
 footer  {
    padding-top: 15px;
    background-color: var(--main-header-bg-color);
-   position: fixed;
+   /* position: fixed; */
    bottom: 0;
    width: 100%;
    height: 50px;
