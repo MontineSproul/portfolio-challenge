@@ -21,8 +21,6 @@ nav {
 nav a {
   width: 35%;
   padding-top: 10px;
-
-  
 }
 
 li {
@@ -116,14 +114,6 @@ p {
   margin-left: 200px;
  }
 
- /* main {
-   display: flex;
-   flex-wrap: wrap;
-   flex-direction: column;
-   padding: 0px;
-   max-height: fit-content;
- } */
-
   div p {
   position: absolute;
   background-color: var(--main-header-bg-color);
@@ -156,7 +146,7 @@ p {
    grid-column-start: 1;
    grid-column-end: 1;
    grid-row-start: 1;
-   grid-row-end: 2;
+   grid-row-end: 3;
    height: 198%;
    width: 98%;
 }
@@ -165,7 +155,7 @@ p {
    grid-column-start: 2;
    grid-column-end: 2;
    grid-row-start: 1;
-   grid-row-end: 1;
+   grid-row-end: 1.5;
    width: 98%;
    height: 98%;
   }
@@ -173,8 +163,8 @@ p {
  #proj3 {
   grid-column-start: 2;
   grid-column-end: 2;
-  grid-row-start: 2;
-  grid-row-end: 2;
+  grid-row-start: 1.5;
+  grid-row-end: 3;
   width: 98%;
   height: 98%;
  }
@@ -186,6 +176,7 @@ p {
   grid-row-end: 3;
   width: 199%;
   height: 98%;
+ 
 }
 
 footer  {
