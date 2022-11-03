@@ -219,13 +219,11 @@ i:hover {
     align-items: center;
     max-width: 98%;
     padding: 5px;
-    
-  
-  }
+    }
   #proj4 {
     max-width: 98%;
   }
-li {
+.nav li {
   display: flex;
   flex-wrap: wrap;
 }
@@ -234,10 +232,33 @@ li {
 
 
 @media screen and (max-width: 576px) {
+   
+  body,
+  .about_me {
+    background-color: rgb(13, 96, 96);
+  }
+
+ h4,
+ .abtMeP {
+    margin: auto;
+    width: 80%;
+    text-align: center;
+  }
   .column {
     display: block;
+    align-items: center;
+    max-width: 98%;
+    padding: 5px;
+  }
+
+#proj4 {
+    max-width: 98%;
   }
   
+.nav li {
+  display: flex;
+  flex-wrap: wrap;
+}
 }
 
 
