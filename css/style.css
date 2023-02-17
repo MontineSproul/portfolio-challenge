@@ -146,7 +146,7 @@ p {
    grid-column-start: 1;
    grid-column-end: 1;
    grid-row-start: 1;
-   grid-row-end: 3;
+   grid-row-end: 2;
    height: 198%;
    width: 98%;
 }
@@ -155,7 +155,7 @@ p {
    grid-column-start: 2;
    grid-column-end: 2;
    grid-row-start: 1;
-   grid-row-end: 1.5;
+   grid-row-end: 1;
    width: 98%;
    height: 98%;
   }
@@ -163,8 +163,8 @@ p {
  #proj3 {
   grid-column-start: 2;
   grid-column-end: 2;
-  grid-row-start: 1.5;
-  grid-row-end: 3;
+  grid-row-start: 2;
+  grid-row-end: 2;
   width: 98%;
   height: 98%;
  }
@@ -176,13 +176,12 @@ p {
   grid-row-end: 3;
   width: 199%;
   height: 98%;
- 
 }
 
 footer  {
    padding-top: 15px;
    background-color: var(--main-header-bg-color);
-   /* position: fixed; */
+   position: fixed;
    bottom: 0;
    width: 100%;
    height: 50px;
